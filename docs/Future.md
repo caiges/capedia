@@ -39,3 +39,9 @@ Starts the application using the application's configuration steps.
     capedia deactivate [app name]
 
 Stops the application using the application's configuration steps.
+
+## Capistrano Integration
+    
+    capedia [action] [env] [app name]
+
+This is simply a layer that wraps the capistrano api.  Replace [action] with setup, deploy, rollback, etc..
